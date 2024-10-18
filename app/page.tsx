@@ -1,3 +1,4 @@
+import { ChakraProvider, Box, Heading, Text } from '@chakra-ui/react';
 import Pricing from '@/components/ui/Pricing/Pricing';
 import { createClient } from '@/utils/supabase/server';
 import {
@@ -15,10 +16,17 @@ export default async function PricingPage() {
   ]);
 
   return (
-    <Pricing
-      user={user}
-      products={products ?? []}
-      subscription={subscription}
-    />
+    <ChakraProvider>
+      <Box p={4}>
+        <Heading as="h1" size="xl" mb={4}>
+          Pricing Page
+        </Heading>
+        <Pricing
+          user={user}
+          products={products ?? []}
+          subscription={subscription}
+        />
+      </Box>
+    </ChakraProvider>
   );
 }

@@ -1,3 +1,17 @@
+Payment tiers
+Tiny Worm Plan
+In beta, all plans provide the same great service. Your choice simply shows your support for the creator. The Tiny Worm Plan is ideal for anyone just beginning their journey in link organisation. Remember, it’s not about size; it’s how you use it!
+
+Mighty Worm Package
+In beta, all plans provide the same great service. Your choice simply shows your support for the creator. This plan gives you ample room to grow your collection and wiggle through your saved links with ease.!
+
+Earthshaker Supreme
+In beta, all plans provide the same great service. Your choice simply shows your support for the creator. The ultimate link management experience. Warning: May cause seismic shifts in your productivity and organisation skills. Handle with care!
+
+
+
+
+
 # Next.js Subscription Payments Starter
 
 The all-in-one starter kit for high-performance SaaS applications.
